@@ -32,11 +32,11 @@
 
 @yield('footer-styles')
 
-@yield('footer-scripts')
-
 <script src="{{ Theme::asset('js/jquery-2.2.0.min.js') }}"></script>
 <script src="{{ Theme::asset('js/materialize.min.js') }}"></script>
 <script src="{{ Theme::asset('js/init.js') }}"></script>
+
+@yield('footer-scripts')
 
 {{-- google analytics --}}
 @yield('google_analytics', googleAnalytics())
