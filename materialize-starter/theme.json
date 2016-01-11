@@ -1,0 +1,8 @@
+{
+  "slug": "materialize-starter",
+  "name": "Materialize CSS Starter Theme",
+  "author": "Materialize CSS",
+  "author_url": "http://materializecss.com/",
+  "description": "This is the simplest starter page with a Header, Call-to-Action, and Icon Features.",
+  "version": "1.0.0"
+}
