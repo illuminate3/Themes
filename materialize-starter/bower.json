@@ -1,0 +1,16 @@
+{
+  "name": "materialize-starter",
+  "version": "1.0.0",
+  "description": "Materialize Starter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor/bower_dl",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.1",
+    "materialize": "~0.97.5"
+  }
+}
