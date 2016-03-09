@@ -1,0 +1,16 @@
+{
+  "name": "semantic-starter",
+  "version": "1.0.0",
+  "description": "Semantic Starter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor/bower_dl",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.1",
+    "semantic": "~2.1.8"
+  }
+}
