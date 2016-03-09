@@ -1,0 +1,8 @@
+{
+  "slug": "bootstrap-starter",
+  "name": "Bootstrap Starter Theme",
+  "author": "Bootstrap",
+  "author_url": "http://getbootstrap.com/",
+  "description": "A simple, responsive homepage design with sidebar.",
+  "version": "1.0.0"
+}
