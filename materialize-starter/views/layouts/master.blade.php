@@ -12,7 +12,7 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="{{ Theme::asset('css/materialize.min.css') }}" type="text/css" rel="stylesheet"
+    <link href="{{ Theme::asset('vendor/materialize/dist/css/materialize.min.css') }}" type="text/css" rel="stylesheet"
           media="screen,projection"/>
     <link href="{{ Theme::asset('css/style.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
     @yield('header-styles')
@@ -32,8 +32,8 @@
 
 @yield('footer-styles')
 
-<script src="{{ Theme::asset('js/jquery-2.2.0.min.js') }}"></script>
-<script src="{{ Theme::asset('js/materialize.min.js') }}"></script>
+<script src="{{ Theme::asset('vendor/jquery/dist/jquery.min.js') }}"></script>
+<script src="{{ Theme::asset('vendor/materialize/dist/js/materialize.min.js') }}"></script>
 <script src="{{ Theme::asset('js/init.js') }}"></script>
 
 @yield('footer-scripts')
