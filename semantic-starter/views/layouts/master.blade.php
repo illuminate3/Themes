@@ -11,18 +11,13 @@
         @yield('meta')
 
         {{-- header stylesheets --}}
-        <link rel="stylesheet" type="text/css" href="{{ Theme::asset('css/semantic.min.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ Theme::asset('css/transition.min.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ Theme::asset('css/menu.min.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ Theme::asset('css/sidebar.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ Theme::asset('vendor/semantic/dist/semantic.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ Theme::asset('css/custom.css') }}">
         @yield('header-styles')
 
         {{-- header scripts --}}
-        <script src="{{ Theme::asset('js/jquery-2.2.0.min.js') }}"></script>
-        <script src="{{ Theme::asset('js/visibility.min.js') }}"></script>
-        <script src="{{ Theme::asset('js/sidebar.min.js') }}"></script>
-        <script src="{{ Theme::asset('js/transition.min.js') }}"></script>
+        <script src="{{ Theme::asset('vendor/jquery/dist/jquery.min.js') }}"></script>
+        <script src="{{ Theme::asset('vendor/semantic/dist/semantic.min.js') }}"></script>
         @yield('header-scripts')
 
     </head>
