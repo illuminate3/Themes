@@ -10,7 +10,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.2.1",
-    "materialize": "~0.97.5"
+    "jquery": "~2.2.3",
+    "materialize": "~0.97.6"
   }
 }
