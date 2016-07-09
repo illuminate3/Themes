@@ -10,7 +10,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.2.3",
-    "semantic": "~2.1.8"
+    "jquery": "~3.0.0",
+    "semantic": "~2.2.2"
   }
 }
