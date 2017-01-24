@@ -5,7 +5,7 @@
         <meta charset="utf-8"/>
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>@yield('title', site_name())</title>
+        <title>@yield('title', 'site_name()')</title>
         <meta name="description" content="@yield('meta_description')">
         <meta name="keywords" content="@yield('meta_keywords')">
         @yield('meta')
@@ -41,7 +41,7 @@
 @yield('footer-scripts')
 
 {{-- google analytics --}}
-@yield('google_analytics', googleAnalytics())
+@yield('google_analytics', 'googleAnalytics()')
 
 </body>
 </html>

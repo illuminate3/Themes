@@ -1,12 +1,8 @@
 {{-- header alanı --}}
 <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-        <a id="logo-container" href="{{ home_url() }}" class="brand-logo">
-            @if(site_logo())
-                <img src="{{ site_logo() }}" class="ui small image">
-            @else
-                {{ site_name() }}
-            @endif
+        <a id="logo-container" href="{{-- home_url() --}}" class="brand-logo">
+            <img src="{{-- site_logo() --}}" class="ui small image">
         </a>
         <ul class="right hide-on-med-and-down">
             <li><a href="#">Navbar Link</a></li>
@@ -23,9 +19,13 @@
     <div class="section no-pad-bot">
         <div class="container">
             <br><br>
-            <h1 class="header center teal-text text-lighten-2">{{ site_name() }}</h1>
+            <h1 class="header center teal-text text-lighten-2">
+                {{-- site_name() --}} Site Name
+            </h1>
             <div class="row center">
-                <h5 class="header col s12 light">{{ site_description() }}</h5>
+                <h5 class="header col s12 light">
+                    {{-- site_description() --}} Site Description
+                </h5>
             </div>
             <div class="row center">
                 <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>

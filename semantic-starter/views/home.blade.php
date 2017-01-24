@@ -1,6 +1,6 @@
 @extends($theme_layout)
-@section('meta_description'){{ meta_description() }}@stop
-@section('meta_keywords'){{ meta_keywords() }}@stop
+@section('meta_description'){{-- meta_description() --}}@stop
+@section('meta_keywords'){{-- meta_keywords() --}}@stop
 @section('content')
     <div class="ui inverted vertical masthead center aligned segment">
 
@@ -23,10 +23,10 @@
 
         <div class="ui text container">
             <h1 class="ui inverted header">
-                {{ site_name() }}
+                {{-- site_name() --}} Site Name
             </h1>
 
-            <h2>{{ site_description() }}</h2>
+            <h2>{{-- site_description() --}} Site Description</h2>
 
             <div class="ui huge primary button">Get Started</div>
         </div>

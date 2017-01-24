@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 
     <meta name="_token" content="{{ csrf_token() }}"/>
-    <title>@yield('title', site_name())</title>
+    <title>@yield('title', 'site_name()')</title>
     <meta name="description" content="@yield('meta_description')">
     <meta name="keywords" content="@yield('meta_keywords')">
     @yield('meta')
@@ -39,7 +39,7 @@
 @yield('footer-scripts')
 
 {{-- google analytics --}}
-@yield('google_analytics', googleAnalytics())
+@yield('google_analytics', 'googleAnalytics()')
 
 </body>
 </html>

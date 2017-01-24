@@ -32,7 +32,7 @@
     <div class="footer-copyright">
         <div class="container">
             Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">
-                {{ app_name() }}
+                {{-- app_name() --}} App Name
             </a>
         </div>
     </div>
